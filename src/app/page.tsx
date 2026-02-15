@@ -163,16 +163,29 @@ By law, private foundations must distribute at least 5% of their investment asse
           </nav>
         </div>
 
-        <div className="mt-auto p-6 border-t border-white/5">
-          <div className="bg-gradient-to-br from-zinc-900 to-zinc-950 rounded-xl p-4 border border-white/5">
-            <div className="flex items-center gap-2 mb-2">
-              <div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
-              <p className="text-xs text-zinc-400 font-medium">Live Database</p>
-            </div>
-            <p className="text-2xl font-mono text-white font-bold tracking-tight">{ZOMBIE_DATA.length}</p>
-            <p className="text-[10px] text-emerald-500/80">Active Targets Found</p>
-          </div>
-        </div>
+        <div className="mt-auto p-6 space-y-4 border-t border-white/5">
+{/* NEW: THE 5% MANDATE STATUS BOX */}
+<div className="bg-gradient-to-br from-zinc-900 to-zinc-950 rounded-xl p-4 border border-white/5">
+<div className="flex items-center gap-2 mb-2">
+<div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
+<p className="text-xs text-zinc-400 font-medium">The 5% Mandate</p>
+</div>
+<p className="text-sm font-mono text-zinc-300 leading-tight">
+Foundations must spend <span className="text-amber-400 font-bold">5%</span> of assets annually or be flagged.
+</p>
+</div>
+
+{/* EXISTING: LIVE DATABASE STATUS BOX */}
+
+<div className="bg-gradient-to-br from-zinc-900 to-zinc-950 rounded-xl p-4 border border-white/5">
+<div className="flex items-center gap-2 mb-2">
+<div className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div>
+<p className="text-xs text-zinc-400 font-medium">Live Database</p>
+</div>
+<p className="text-2xl font-mono text-white font-bold tracking-tight">{ZOMBIE_DATA.length}</p>
+<p className="text-[10px] text-emerald-500/80 uppercase tracking-widest font-bold">Active Targets</p>
+</div>
+</div>
       </aside>
 
       {/* MOBILE TOGGLE */}
