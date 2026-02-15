@@ -1,5 +1,5 @@
 "use client";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState, useMemo, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { 
@@ -443,3 +443,5 @@ function FoundationCard({ data, index }: { data: any, index: number }) {
     </motion.div>
   );
 }
+
+<SpeedInsights/>
