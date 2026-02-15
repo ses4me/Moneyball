@@ -99,6 +99,28 @@ export default function ZombieHunterApp() {
             </a>
           </div>
         </motion.div>
+        <div className="mt-24 border-t border-white/5 pt-16 w-full max-w-3xl mx-auto">
+<div className="flex items-center gap-3 mb-6 justify-center">
+<AlertTriangle className="text-amber-400 w-6 h-6" />
+<h2 className="text-2xl font-bold tracking-tight text-white uppercase italic">The 5% Mandate</h2>
+</div>
+
+<div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+<div className="bg-zinc-900/50 p-6 rounded-2xl border border-white/5">
+<h3 className="text-emerald-400 font-bold mb-2 uppercase text-xs tracking-widest">The Law</h3>
+<p className="text-zinc-400 text-sm leading-relaxed">
+By law, private foundations must distribute at least 5% of their investment assets annually for charitable purposes. This ensures tax-exempt money actually helps society.
+</p>
+</div>
+
+<div className="bg-zinc-900/50 p-6 rounded-2xl border border-white/5">
+  <h3 className="text-red-400 font-bold mb-2 uppercase text-xs tracking-widest">The Problem</h3>
+  <p className="text-zinc-400 text-sm leading-relaxed">
+    Many "Zombie" foundations use complex accounting or internal expenses to meet this requirement while doing zero actual good. We track the ones falling behind.
+  </p>
+</div>
+</div>
+</div>
 
         {/* Footer Credit */}
         <div className="absolute bottom-8 text-zinc-600 text-xs font-mono">
