@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://charity-moneyball.vercel.app/sitemap.xml
