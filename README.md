@@ -1,7 +1,7 @@
 # Charity Moneyball
 **Built by Aarush Jain**
 
-An open-source intelligence dashboard that identifies "Zombie Foundations"—private charitable trusts with high assets but low annual spending.
+An open-source intelligence dashboard that identifies "Zombie Foundations"—private charitable trusts with high assets but low annual spending. NGOs in the US are required to spend atleast 5% of their assets yearly, to reduce tax for them. This list can be used to then contact these organizations with projects in the same field by innovators and inventors to seek support and funding.
 
 - **USA Dragnet:** Scans thousands of organizations across all 51 states.
 - **Forensic Analytics:** Calculates "Hoarding Ratios" to find dormant capital.
@@ -12,6 +12,5 @@ An open-source intelligence dashboard that identifies "Zombie Foundations"—pri
 - **Frontend:** Next.js 14, Tailwind CSS, Framer Motion
 
 
-- Feel free to use in projects, must give credit.
 - Feel free to use in projects, must give credit.
 
